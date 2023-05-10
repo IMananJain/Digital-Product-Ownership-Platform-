@@ -1,0 +1,18 @@
+.secondFold{
+    width: 100%;
+    padding: 50px 10vw;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: var(--black);
+    gap:10vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .secondFold {
+    display: flex !important;
+    padding: 40px 5vw;
+    flex-direction: column;
+    gap: 40px;
+  }    
+}

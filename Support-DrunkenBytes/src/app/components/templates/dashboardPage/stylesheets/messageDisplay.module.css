@@ -1,0 +1,48 @@
+.mainDiv{
+    width: 100%;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(12,12,13,0.05);
+    display: flex;
+    justify-content: space-between;
+}
+.mainDiv:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.read{
+    background-color: var(--darkWhite);
+}
+.insideDiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.avatar{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 30px !important;
+    height: 40px;
+    width: 40px;
+}
+.textDiv{
+    display: flex;
+    flex-direction: column;
+    height: 100% !important;
+    justify-content: space-between;
+    padding: 0 !important;
+    gap: 5px;
+}
+.textDiv p{
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 14px;
+    font-weight: 600;
+}
+.textDiv span{
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 12px;
+}
+.date{
+    font-size: 12px;
+}

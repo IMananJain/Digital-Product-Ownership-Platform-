@@ -1,0 +1,23 @@
+.secondFold{
+  width: 100%;
+  padding: 50px 10vw;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: var(--black);
+  gap:10px;
+}
+
+.clearFilterButton{
+align-self: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+.secondFold {
+  display: flex !important;
+  padding: 40px 5vw;
+  flex-direction: column;
+  gap: 40px;
+}    
+}

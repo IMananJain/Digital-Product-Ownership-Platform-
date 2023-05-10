@@ -1,0 +1,33 @@
+.secondFold{
+    width: 100%;
+    padding: 50px 10vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--black);
+    background-color: rgba(238, 243, 245, 1);
+    background-color: var(--white);
+}
+.infiniteScrollDiv{
+  padding: 10px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.blogsDiv{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+.endMessage{
+  margin-top: 10px;
+  font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .secondFold {
+      padding: 40px 5vw;
+      flex-direction: column;
+    }
+}

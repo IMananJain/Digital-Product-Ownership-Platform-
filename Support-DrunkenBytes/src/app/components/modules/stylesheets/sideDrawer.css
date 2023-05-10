@@ -1,0 +1,122 @@
+.side-drawer-button {
+  display: flex !important;
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 100% !important;
+  background-color: var(--purple) !important;
+  /* color: var(--white) !important; */
+  margin: 0 !important;
+  padding: 4px !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: flex-end !important;
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+  border: none !important;
+}
+.side-drawer-button div {
+  background-color: var(--white);
+  height: 2px;
+  width: 100%;
+  margin: 3px 0;
+}
+.side-drawer-button .side-drawer-button-container-div-line2 {
+  width: 60%;
+}
+.side-drawer-button:hover {
+  transition: opacity 0.2s;
+  opacity: 0.85 !important;
+}
+
+.ant-drawer-content-wrapper {
+  width: 100vw !important;
+  max-width: 380px !important;
+}
+
+.side-drawer-main-div {
+  background-color: var(--white) !important;
+  color: var(--black) !important;
+}
+
+.side-drawer .ant-drawer-title {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  max-width: calc(100% - 48px) !important;
+}
+
+.sideDrawerLogo {
+  height: 50px;
+  width: auto;
+}
+
+.side-drawer .ant-drawer-body {
+  padding: 0 !important;
+}
+
+.side-drawer .ant-drawer-close {
+  position: absolute !important;
+  right: 12px !important;
+  background-color: var(--white) !important;
+  border: 2px solid var(--purple) !important;
+  color: var(--purple) !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 100% !important;
+  padding: 0 !important;
+  width: 36px !important;
+  height: 36px !important;
+}
+
+.side-drawer .ant-drawer-close:hover,
+.side-drawer .ant-drawer-close:focus {
+  border: 2px solid var(--purple) !important;
+  background-color: var(--purple) !important;
+  color: var(--white) !important;
+}
+
+.side-drawer-link {
+  color: var(--black) !important;
+}
+
+.side-drawer-link:hover,
+.side-drawer-link:focus,
+.side-drawer-link:active {
+  color: var(--purple) !important;
+}
+
+.ant-collapse-content-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 16px;
+}
+
+.ant-collapse-expand-icon {
+  position: absolute;
+  right: 16px;
+  transform: translate(50%, 50%) !important;
+}
+
+.ant-collapse-header {
+  background-color: var(--white) !important;
+  padding: 0px 0px 0px 2px !important;
+}
+
+.ant-collapse-header:active .ant-collapse-header-text,
+.ant-collapse-header:focus-within .ant-collapse-header-text {
+  background-color: rgba(117, 103, 206, 0.174) !important;
+  border-left: 10px solid var(--purple) !important;
+}
+
+.ant-collapse-header-text {
+  border-left: 10px solid #fdfdfd !important;
+  padding-left: 4px;
+  height: 50px;
+  border-radius: 5px 0 0 5px !important;
+  font-size: 17px !important;
+  display: flex;
+  align-items: center;
+}

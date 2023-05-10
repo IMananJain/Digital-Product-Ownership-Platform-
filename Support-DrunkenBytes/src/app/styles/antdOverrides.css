@@ -1,0 +1,325 @@
+.ant-click-animating-node {
+  display: none !important;
+}
+[ant-click-animating-without-extra-node="true"]::after {
+  display: none !important;
+}
+.ant-btn::after {
+  all: unset !important;
+}
+.ant-btn:focus:not(:active) {
+  outline: none;
+}
+.ant-btn:focus, .ant-btn:hover {
+  box-shadow: none;
+}
+.ant-btn-clicked:after {
+  display: none !important;
+}
+.error-notification {
+  border-radius: 4px !important;
+}
+
+.ant-spin-dot-item{
+  background-color: var(--purple) !important;
+}
+.ant-spin-text{
+  color: var(--purple) !important;
+  font-size: 16px !important;
+}
+.ant-select-selector, .ant-select-selection-search{
+  height: 50px !important;
+}
+.ant-select-selection-placeholder{
+  display: flex !important;
+  align-items: center !important;
+}
+
+.ant-select-selector{
+  background-color: #f9f8fa !important;
+  width: 100%;
+  height: 48px !important;
+  border: none !important;
+  outline: none !important;
+  font-size: 16px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ant-select-selector:hover{
+  background-color: #f9f8fa !important;
+  border: none !important;
+}
+
+/* @/app/components/modules//CookieBar.js*/
+.cookieBarModal {
+  width: 600px !important;
+  max-width: 90vw !important;
+  border-radius: 4px !important;
+}
+.cookieBarModal .ant-modal-title {
+  font-size: 1.5rem !important;
+  font-weight: 400;
+  letter-spacing: normal !important;
+  line-height: 2rem;
+  padding-left: 18px !important;
+}
+.cookieBarModal .ant-modal-body {
+  padding: 30px 20px 40px 20px;
+}
+.cookieBarModal .ant-switch-checked {
+  background: var(--green) !important;
+}
+
+/* @/app/components/modules/AcceptAndSignModal.js */
+.acceptandSignModal {
+  width: 600px !important;
+  max-width: 90vw !important;
+  border-radius: 4px !important;
+}
+.acceptandSignModal .ant-modal-header {
+  text-align: center !important;
+}
+.acceptandSignModal .ant-modal-title {
+  font-size: 1.5rem !important;
+  font-weight: 400;
+  letter-spacing: normal !important;
+  line-height: 2rem;
+  padding-left: 18px !important;
+}
+.acceptandSignModal .ant-modal-body {
+  padding: 30px 20px 10px 20px;
+}
+
+/* @/app/components/templates/registerPage/componets/RegisterModal */
+.registerModal {
+  width: 600px !important;
+  max-width: 90vw !important;
+  border-radius: 4px !important;
+}
+/* .registerModal .ant-modal-header {
+  text-align: center !important;
+} */
+.registerModal .ant-modal-title {
+  font-size: 1.5rem !important;
+  font-weight: 400;
+  letter-spacing: normal !important;
+  line-height: 2rem;
+  padding-left: 18px !important;
+}
+.registerModal .ant-modal-body {
+  padding: 30px 20px 10px 20px;
+}
+
+/* @/app/components/templates/createNft/CreateNft.js*/
+.displayResultModal {
+  width: 500px !important;
+  max-width: 90vw !important;
+  border-radius: 4px !important;
+}
+.displayResultModal .ant-modal-header {
+  text-align: center !important;
+}
+.displayResultModal .ant-modal-title {
+  font-size: 1.5rem !important;
+  font-weight: 400;
+  letter-spacing: normal !important;
+  line-height: 2rem;
+  padding-left: 18px !important;
+}
+.displayResultModal .ant-modal-body {
+  padding: 30px 20px 40px 20px;
+}
+@media only screen and (max-width: 768px){
+  .displayResultModal .ant-modal-body {
+    padding: 30px 0px 40px 0px;
+  }
+}
+
+
+/* @/app/components/templates/createNft/CreateNft.js*/
+.addMoneyModal {
+  width: 500px !important;
+  max-width: 90vw !important;
+  border-radius: 4px !important;
+}
+.addMoneyModal .ant-modal-header {
+  text-align: center !important;
+}
+.addMoneyModal .ant-modal-title {
+  font-size: 1.5rem !important;
+  font-weight: 400;
+  letter-spacing: normal !important;
+  line-height: 2rem;
+  padding-left: 18px !important;
+}
+.addMoneyModal .ant-modal-body {
+  padding: 30px 20px 40px 20px;
+}
+@media only screen and (max-width: 768px){
+  .addMoneyModal .ant-modal-body {
+    padding: 30px 0px 40px 0px;
+  }
+}
+
+
+/* @/app/components/templates/manageAPIKeyPage/ManageAPIKeyPage.js*/
+.createAPIModal {
+  width: 500px !important;
+  max-width: 90vw !important;
+  border-radius: 4px !important;
+}
+.createAPIModal .ant-modal-header {
+  text-align: center !important;
+}
+.createAPIModal .ant-modal-title {
+  font-size: 1.5rem !important;
+  font-weight: 400;
+  letter-spacing: normal !important;
+  line-height: 2rem;
+  padding-left: 18px !important;
+}
+.createAPIModal .ant-modal-body {
+  padding: 30px 20px 40px 20px;
+}
+.createApiModalForm label{
+  width: 100% !important;
+  max-width: 100% !important;
+}
+@media only screen and (max-width: 768px){
+  .createAPIModal .ant-modal-body {
+    padding: 30px 0px 40px 0px;
+  }
+}
+
+
+.ant-collapse-header{
+  box-shadow: 0px 24px 3px -24px rgba(0,0,0,0.3);
+}
+.ant-collapse-header-text{
+  text-align: left;
+}
+.ant-collapse-header {
+  padding: 20px 40px !important;
+  font-weight: 600 !important;
+  font-size: 18px !important; 
+}
+.ant-collapse-content-box{
+  box-shadow: 0px 24px 3px -24px rgba(0,0,0,0.3);
+  padding: 20px 40px !important;
+  padding-bottom: 10px !important;
+}
+.ant-collapse-content-box p{
+  text-align: justify !important;
+}
+
+
+.profile-tabs{
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2), 0 -5px 5px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 16px;
+}
+.profile-tabs .ant-tabs-tab-active{
+  border: 1px solid var(--purple) !important;
+  color: var(--purple);
+}
+.profile-tabs .ant-tabs-tab-btn{
+  color: var(--purple) !important;
+}
+.profile-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+  color: var(--purple) !important;
+}
+
+/* @/app/components/templates/transactionPage/TransactionPage.js*/
+.tab-pane .ant-table {
+  border-radius: 4px;
+}
+
+.tab-pane .ant-table-thead > tr > th:first-child {
+  border-radius: 4px 0 0 0 !important;
+}
+
+.tab-pane .ant-table-thead > tr > th:last-child {
+  border-radius: 0 4px 0 0 !important;
+}
+
+.tab-pane .ant-table-tbody > tr:last-child > td:first-child {
+  border-radius: 0 0 0 4px !important;
+}
+
+.tab-pane .ant-table-tbody > tr:last-child > td:last-child {
+  border-radius: 0 0 4px 0 !important;
+}
+
+.tab-pane .ant-table-filter-trigger {
+  color: var(--white) !important;
+}
+.tab-pane .ant-table-column-sorter {
+  color: var(--white) !important;
+}
+.tab-pane .ant-table-pagination-right {
+  /* margin: 15px 0 0 0 !important; */
+  justify-content: center;
+}
+
+.tab-pane .ant-table-thead > tr > th {
+  background: linear-gradient(360deg, var(--purple), var(--purple));
+  /* background: var(--purple) !important; */
+  color: var(--white) !important;
+  text-align: center;
+}
+.tab-pane .ant-table-thead > tr > .ant-table-column-has-sorters:active,
+.tab-pane .ant-table-thead > tr > .ant-table-column-has-sorters:focus,
+.tab-pane .ant-table-thead > tr > .ant-table-column-has-sorters:hover {
+  background: linear-gradient(360deg, var(--purple), var(--purple)) !important;
+  opacity: 0.9;
+}
+.tab-pane .ant-table-thead > tr > .ant-table-column-sort {
+  background: linear-gradient(360deg, var(--purple), var(--purple)) !important;
+}
+.ant-table-column-sort {
+  background: transparent !important;
+}
+.tab-pane .ant-table-tbody > tr > td {
+  text-align: center;
+}
+
+.tab-pane .ant-table-wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.tab-pane .ant-pagination-item-link,
+.tab-pane .ant-pagination-item {
+  border-radius: 100% !important;
+}
+.tab-pane .ant-pagination-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-tabs-nav{
+  margin-bottom: 0 !important;
+}
+
+.nested-table{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 10px 0 !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.nested-table .ant-table{
+  margin: auto !important;
+  width: 100% !important;
+}
+.nested-table .ant-spin-nested-loading{
+  width: 100% !important;
+}
+
+.change-password .ant-input{
+  background-color: #f9f8fa !important;
+}

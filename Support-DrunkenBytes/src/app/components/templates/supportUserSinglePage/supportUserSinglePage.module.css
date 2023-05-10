@@ -1,0 +1,107 @@
+.profile{
+    width: 100%;
+  padding: 50px 10vw;
+}
+.heading{
+    color: var(--purple);
+}
+.paragraph{
+    padding-bottom: 20px;
+}
+.profileDiv{
+    border-radius: 16px;
+    padding: 0;
+    background-color: var(--greyishWhite);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2), 0 -5px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+.headerDiv{
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--black);
+    color: var(--purple);
+}
+.contentDiv{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.imageDiv{
+    display: flex;
+    height: 100%;
+    justify-content:center;
+    align-items: center;
+}
+.informationDiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.informationContent{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5vw;
+    height: fit-content;
+    border-bottom: 1px solid var(--black);
+    flex-wrap: wrap;
+    padding-bottom: 5px !important;
+    align-items: flex-start;
+    align-self: flex-start;
+}
+.informationContent p{
+    padding:0 !important;
+    margin:0 !important;
+}
+.logoSkeleton{
+    transform: translateY(-80px) !important;
+}
+.tilesDiv{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    justify-items: center;
+    align-items: center;
+  }
+.avatar{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.buttonDiv{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 10px;
+  }
+  .tableContainer{
+    width: 100%;
+  }
+@media only screen and (max-width: 768px) {
+    .profile {
+      padding: 40px 5vw;
+    }
+    .contentDiv{
+        flex-direction: column;
+        overflow-wrap: break-word !important ;
+    }
+    .informationContent{
+        gap: 5px;
+        flex-direction: column;
+        overflow-wrap: break-word !important ;
+    }
+    .informationContent p{
+        display: block;
+        width: 100%;
+        overflow-wrap: break-word !important ;
+}
+  }

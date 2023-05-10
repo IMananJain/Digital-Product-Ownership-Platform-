@@ -1,0 +1,44 @@
+:root {
+  /* --purple: #7866d5; */
+  --purple: #7260ca;
+  --lightPurple: #b2a4ff;
+  --darkPurple: #181925;
+  /* --white: #fefefe; */
+  --white: #ffffff;
+  --linkColor: #1a73e8;
+  --black: #0c0c0d;
+  --lightBlack: #4d4d4d;
+  --darkWhite: #e9ebef;
+  --greyishWhite: #f9f8fa;
+  --greyishWhite: #fbfbfc;
+  --green: #4caf50;
+  --footerText: #9596af;
+  --twelve: 12px;
+  --sixteen: 16px;
+  --w3m-modal-z-index: 9000 !important;
+}
+
+body {
+  background-color: var(--white);
+  margin: 0;
+  min-height: 100%;
+  font-family: "TT Hoves", sans-serif;
+  color: var(--black);
+  font-size: 16px;
+  line-height: 1.5em;
+  font-weight: 400;
+  padding-top: 80px !important;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none !important;
+}
+
+#nprogress .bar{
+  background: var(--purple) !important;
+  height: 5px !important;
+}
+#nprogress .spinner-icon{
+  border-top-color: var(--purple) !important;
+  border-left-color: var(--purple) !important;
+}

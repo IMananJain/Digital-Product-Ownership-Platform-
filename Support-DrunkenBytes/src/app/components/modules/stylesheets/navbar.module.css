@@ -1,0 +1,85 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 990;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent !important;
+  height: 80px;
+  padding: 15px 10vw;
+}
+.fixedNavbar {
+  transition: all 0.3s ease-in !important;
+  background: var(--white) !important;
+  box-shadow: 0 1px 25px 0 rgb(0 0 0 / 5%);
+}
+.logo {
+  height: 50px;
+  width: auto;
+}
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.dropdownButton {
+  background-color: transparent;
+  height: fit-content;
+  width: fit-content;
+  border: none;
+  outline: none;
+}
+.avatar {
+  background-color: var(--purple) !important;
+  color: var(--white) !important;
+  cursor: pointer;
+}
+.avatar:hover {
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+.avatarItem {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  -webkit-box-pack: justify;
+  justify-content: flex-start;
+  align-items: center !important;
+  gap: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  width: 200px !important;
+}
+.avatarItemIcon {
+  font-size: 18px;
+}
+.avatarItemButton {
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+    padding: 15px 5vw;
+  }
+  .logo {
+    height: 40px;
+    width: auto;
+  }
+  .buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+  }
+  .avatarItem {
+    gap: 10px;
+    width: 156px !important;
+  }
+}

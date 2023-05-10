@@ -1,0 +1,41 @@
+.secondFold {
+  width: 100%;
+  padding: 50px 10vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  color: var(--black);
+}
+.containerDiv{
+  display: flex;
+  padding: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  text-align:center;
+  gap:10px;
+  flex-direction: column;
+}
+.containerDiv img{
+  height: 100px;
+  width: auto;
+}
+.containerDiv h2{
+  font-size: 22px;
+  line-height: 1.2em;
+  font-weight: 500;
+}
+.containerDiv p{
+  margin-top: 0;
+  font-family: Hauora,sans-serif;
+  color: #5d5e67;
+  font-size: 16px;
+  line-height: 1.4em;
+  font-weight: 400;
+  letter-spacing: .3px;
+}
+@media only screen and (max-width: 768px) {
+  .secondFold {
+    padding: 40px 5vw;
+    gap: 20px;
+  }
+}

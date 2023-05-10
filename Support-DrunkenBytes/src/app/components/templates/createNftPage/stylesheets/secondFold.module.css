@@ -1,0 +1,106 @@
+.createNft {
+  width: 100%;
+  padding: 50px 10vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--darkWhite);
+  background-color: #383072;
+  gap: 20px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  object-fit: cover;
+}
+.bgImage{
+  position: relative;
+    left: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+.loginDiv{
+    background-color: var(--white) !important;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 800px;
+    padding: 40px 80px;
+    margin-top: 20px;
+    box-shadow: 0 0 0 0 rgba(0,0,0,.2),0 0 0 0 rgba(0,0,0,.14),0 0 0 0 rgba(0,0,0,.12)!important;
+    border-width: thin;
+    display: block;
+    outline: none;
+    text-decoration: none;
+}
+.label{
+  padding-bottom: 100px !important;
+  font-weight: 400 !important;
+}
+.input{
+    height: 50px !important;
+    width: 100% !important;
+    background-color: #f9f8fa !important;
+    border: 0.6px solid #cacbdf !important;
+    border-radius: 4px;
+}
+.input:hover{
+    border-color: var(--purple) !important;
+}
+.button{
+    margin-top: 20px;
+    height: 50px !important;
+    width: 100% !important;
+    background-color: var(--purple);
+    color: var(--white);
+    font-size: 20px;
+}
+.button:hover{
+    background-color: var(--purple) !important;
+    opacity: 0.9;
+}
+.traitContainer{
+  display: flex;
+  flex-direction: column;
+}
+.titleContainer{
+  display: flex;
+  gap: 20px;
+}
+.formItemContainer{
+  display: flex !important;
+  width: 100% !important;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 !important;
+  padding: 0 !important;
+  gap:20px;
+}
+.deleteButton{
+  background-color: transparent;
+  background: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.deleteButton:hover{
+  background-color: transparent !important;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+@media only screen and (max-width: 768px) {
+  .createNft {
+    width: 100%;
+    padding: 40px 5vw;
+  }
+  .loginDiv{
+    padding: 40px 20px;
+  }
+  .formItemContainer{
+    gap: 10px;
+  }
+}

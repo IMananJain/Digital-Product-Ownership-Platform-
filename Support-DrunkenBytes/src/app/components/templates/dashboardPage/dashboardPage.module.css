@@ -1,0 +1,177 @@
+.dashboard {
+  position: relative;
+  top: -80px;
+  right: 0;
+  left: 0;
+  margin-bottom: -80px;
+  width: 100%;
+  padding: 50px 10vw;
+  padding-top: calc(50px + 80px);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--darkWhite);
+  gap: 20px;
+}
+.performanceDiv {
+  background-color: var(--white);
+  border-radius: 4px;
+  width: 100%;
+}
+.performanceDiv span {
+  display: block;
+  padding: 10px 15px;
+}
+.performanceDiv hr {
+  margin: 0 !important;
+  width: 1px;
+  background-color: var(--black);
+  color: var(--black);
+  width: 100%;
+}
+.performanceContainer {
+  padding: 20px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.middleContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+.middleDiv {
+  width: 50% !important;
+  background-color: var(--white);
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+}
+.middleDiv span {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+.middleDiv hr {
+  margin: 0 !important;
+  width: 1px;
+  background-color: var(--black);
+  color: var(--black);
+  width: 100%;
+}
+.middleDivContainer {
+  padding: 20px 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+.statsDiv {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.statsDiv p {
+  margin: 0 !important;
+  font-size: 12.5px;
+  color: var(--footerText);
+}
+.statsDiv span {
+  margin: 0 !important;
+  padding: 0 !important;
+  color: var(--black);
+  font-size: 24px;
+}
+.messagesContainer {
+  width: 100%;
+  height: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+  height: 498px !important;
+  max-height: 498px !important;
+  color: var(--black) !important;
+}
+.newsContainer {
+  width: 100%;
+  height: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: flex-start;
+  height: 498px !important;
+  max-height: 498px !important;
+  color: var(--black) !important;
+}
+.loadMoreButton {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--purple);
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  align-self: flex-end;
+}
+.loadMoreButton:hover {
+  opacity: 0.9;
+}
+.loadMoreButton:disabled,
+.loadMoreButton[disabled] {
+  opacity: 0.8;
+  cursor: not-allowed;
+  background-color: var(--darkWhite);
+  color: var(--black);
+}
+.reloadIcon {
+  outline: none;
+  background: transparent;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 16px;
+  cursor: pointer;
+  color: var(--darkPurple);
+}
+.overflowScrolling {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+@media only screen and (max-width: 768px) {
+  .dashboard {
+    width: 100%;
+    padding: 20px 5vw;
+  padding-top: calc(50px + 80px);
+  }
+  .performanceContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .middleDiv {
+    width: 100% !important;
+  }
+  .middleContainer {
+    flex-direction: column;
+    gap: 20px;
+    max-height: fit-content !important;
+  }
+  .stats {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .newsContainer {
+    min-height: 0px !important;
+  }
+}

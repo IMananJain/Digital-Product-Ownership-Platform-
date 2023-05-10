@@ -1,0 +1,52 @@
+.transactionsPage {
+  width: 100%;
+  padding: 50px 10vw;
+  background-color: #383072;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.bgImage{
+  position: relative;
+    left: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+.linkDiv{
+  background-color: var(--white) !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  height: 350px !important;
+  border-radius: 16px !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) !important;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+.linkDiv:hover{
+  transform: scale(1.02) !important;
+}
+@media only screen and (max-width: 768px) {
+  .transactionsPage {
+    width: 100%;
+    padding: 40px 5vw;
+    flex-direction: column;
+    gap: 20px;
+}
+.linkDiv{
+  height: 300px !important;
+  font-size: 25px;
+  line-height: 32px;
+}
+.linkDiv:hover{
+  transform: scale(1.01) !important;
+}
+}

@@ -1,0 +1,291 @@
+{
+  "ADMIN": [
+    {
+      "key": "1",
+      "title": "NFT",
+      "data": [
+        {
+          "key": "1-A",
+          "title": "Create NFT",
+          "link": "/create-nft"
+        }
+      ]
+    },
+    {
+      "key": "2",
+      "title": "Transactions",
+      "data": [
+        {
+          "key": "2-A",
+          "title": "View All NFT Transactions",
+          "link": "/transactions/nft"
+        },
+        {
+          "key": "2-B",
+          "title": "View All Wallet Recharge Transactions",
+          "link": "/transactions/wallet-recharge"
+        }
+      ]
+    },
+    {
+      "key": "3",
+      "title": "Users",
+      "data": [
+        {
+          "key": "3-A",
+          "title": "View All Users",
+          "link": "/users"
+        }
+      ]
+    },
+    {
+      "key": "4",
+      "title": "Articles",
+      "data": [
+        {
+          "key": "4-A",
+          "title": "Write an Article",
+          "link": "/articles/write"
+        },
+        {
+          "key": "4-B",
+          "title": "View All Articles",
+          "link": "/help-center"
+        }
+      ]
+    },
+    {
+      "key": "5",
+      "title": "Blogs",
+      "data": [
+        {
+          "key": "5-A",
+          "title": "Write a Blog",
+          "link": "/blogs/write"
+        },
+        {
+          "key": "5-B",
+          "title": "View All Blogs",
+          "link": "/blogs"
+        }
+      ]
+    },
+    {
+      "key": "6",
+      "title": "Tickets",
+      "data": [
+        {
+          "key": "6-A",
+          "title": "View All Tickets",
+          "link": "/tickets"
+        }
+      ]
+    },
+    {
+      "key": "7",
+      "title": "Support Users",
+      "data": [
+        {
+          "key": "7-A",
+          "title": "View All Support Users",
+          "link": "/support-users"
+        }
+      ]
+    },
+    {
+      "key": "8",
+      "title": "Images",
+      "data": [
+        {
+          "key": "8-A",
+          "newTab": true,
+          "title": "Download All Images",
+          "link": "https://api-drunkenbytes.onrender.com/v1/download/download-images-folder"
+        }
+      ]
+    },
+    {
+      "key": "9",
+      "title": "Logs",
+      "data": [
+        {
+          "key": "9-A",
+          "newTab": true,
+          "title": "View Access Log",
+          "link": "https://api-drunkenbytes.onrender.com/v1/logs/access.log"
+        },
+        {
+          "key": "9-B",
+          "newTab": true,
+          "title": "View Error Log",
+          "link": "https://api-drunkenbytes.onrender.com/v1/logs/error.log"
+        },
+        {
+          "key": "9-C",
+          "newTab": true,
+          "title": "Download All Logs",
+          "link": "https://api-drunkenbytes.onrender.com/v1/download/download-log-files"
+        }
+      ]
+    }
+  ],
+  "SUPPORT": [
+    {
+      "key": "1",
+      "title": "Transactions",
+      "data": [
+        {
+          "key": "1-A",
+          "title": "View All NFT Transactions",
+          "link": "/transactions/nft"
+        },
+        {
+          "key": "1-B",
+          "title": "View All Wallet Recharge Transactions",
+          "link": "/transactions/wallet-recharge"
+        }
+      ]
+    },
+    {
+      "key": "2",
+      "title": "Users",
+      "data": [
+        {
+          "key": "2-A",
+          "title": "Users",
+          "link": "/users"
+        }
+      ]
+    },
+    {
+      "key": "3",
+      "title": "Tickets",
+      "data": [
+        {
+          "key": "3-A",
+          "title": "View All Tickets",
+          "link": "/tickets"
+        }
+      ]
+    },
+    {
+      "key": "4",
+      "title": "Support Users",
+      "data": [
+        {
+          "key": "4-A",
+          "title": "View All Support Users",
+          "link": "/support-users"
+        }
+      ]
+    }
+  ],
+  "SALES": [
+    {
+      "key": "1",
+      "title": "Transactions",
+      "data": [
+        {
+          "key": "1-A",
+          "title": "View All NFT Transactions",
+          "link": "/transactions/nft"
+        },
+        {
+          "key": "1-B",
+          "title": "View All Wallet Recharge Transactions",
+          "link": "/transactions/wallet-recharge"
+        }
+      ]
+    },
+    {
+      "key": "2",
+      "title": "Users",
+      "data": [
+        {
+          "key": "2-A",
+          "title": "Users",
+          "link": "/users"
+        }
+      ]
+    },
+    {
+      "key": "3",
+      "title": "Tickets",
+      "data": [
+        {
+          "key": "3-A",
+          "title": "View All Tickets",
+          "link": "/tickets"
+        }
+      ]
+    },
+    {
+      "key": "4",
+      "title": "Support Users",
+      "data": [
+        {
+          "key": "4-A",
+          "title": "View All Support Users",
+          "link": "/support-users"
+        }
+      ]
+    }
+  ],
+  "EDITOR": [
+    {
+      "key": "1",
+      "title": "Articles",
+      "data": [
+        {
+          "key": "1-A",
+          "title": "View All Articles",
+          "link": "/help-center"
+        }
+      ]
+    },
+    {
+      "key": "2",
+      "title": "Users",
+      "data": [
+        {
+          "key": "2-A",
+          "title": "Users",
+          "link": "/users"
+        }
+      ]
+    },
+    {
+      "key": "3",
+      "title": "Blogs",
+      "data": [
+        {
+          "key": "3-A",
+          "title": "View All Blogs",
+          "link": "/blogs"
+        }
+      ]
+    },
+    {
+      "key": "4",
+      "title": "Tickets",
+      "data": [
+        {
+          "key": "4-A",
+          "title": "View All Tickets",
+          "link": "/tickets"
+        }
+      ]
+    },
+    {
+      "key": "5",
+      "title": "Support Users",
+      "data": [
+        {
+          "key": "5-A",
+          "title": "View All Support Users",
+          "link": "/support-users"
+        }
+      ]
+    }
+  ]
+}

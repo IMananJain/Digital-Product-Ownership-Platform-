@@ -1,0 +1,19 @@
+.modalDiv{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    gap: 20px;
+    text-align: center;
+  }
+  .modalInsideDiv{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
+  .modalInsideDiv p{
+    font-weight: 500;
+    margin: 0 !important;
+    padding: 0 !important;
+  }

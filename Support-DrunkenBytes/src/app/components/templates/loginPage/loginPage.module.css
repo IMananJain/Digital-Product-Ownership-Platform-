@@ -1,0 +1,82 @@
+.supportLogin{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#32344f,#2b2d45,#25273a,#1f2031,#191a27);
+    padding: 50px 10vw;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+.container h1{
+    font-size: 30px !important;
+}
+.logoContainer{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    background: transparent;
+}
+.loginDiv{
+    background-color: var(--white) !important;
+    border-radius: 4px;
+    padding: 40px 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 0 0 rgba(0,0,0,.2),0 0 0 0 rgba(0,0,0,.14),0 0 0 0 rgba(0,0,0,.12)!important;
+    border-width: thin;
+    display: block;
+    width: 100%;
+    max-width: 480px;
+    outline: none;
+    text-decoration: none;
+    transition-property: box-shadow,opacity;
+    overflow-wrap: break-word;
+    position: relative;
+    white-space: normal;
+}
+.loginDiv h1{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.input{
+    height: 50px;
+}
+.input:hover{
+    border-color: var(--purple) !important;
+}
+.button{
+    margin-top: 20px;
+    height: 50px !important;
+    width: 100% !important;
+    background-color: var(--purple);
+    color: var(--white);
+    font-size: 20px;
+}
+.button:hover{
+    background-color: var(--purple) !important;
+    opacity: 0.9;
+}
+.loginDiv p{
+    /* margin-top: 10px !important; */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: .75rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    width: 70%
+}
+.link{
+    color: var(--purple);
+}
+@media only screen and (max-width:768px){
+    .supportLogin{
+        padding: 40px 5vw;
+    }
+}

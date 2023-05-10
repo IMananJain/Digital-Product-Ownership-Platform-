@@ -1,0 +1,49 @@
+.secondFold {
+  width: 100%;
+  padding: 50px 10vw;
+  background-color: var(--greyishWhite) !important;
+}
+.mainDiv{
+  max-width: 1000px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 1px 1px 5px 0 rgb(0 0 0 / 10%);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2), 0 -5px 5px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  border-radius: 10px;
+}
+.mainDiv h6{
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+    font-size: 22px;
+    line-height: 1.2em;
+    font-weight: 500;
+}
+.mainDiv p{
+  margin-bottom: 20px;
+  line-height: 1.6em;
+  margin-top: 0;
+  font-family: Hauora,sans-serif;
+  color: #5d5e67;
+  font-size: 16px;
+      font-weight: 400;
+    letter-spacing: .3px;
+}
+.mainDiv ul{
+  margin-top: 0;
+    margin-left: 15px;
+    color: #5d5e67;
+    font-weight: 400;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .secondFold {
+    padding: 40px 5vw;
+  }
+  .heading {
+    font-size: 40px;
+  }
+}

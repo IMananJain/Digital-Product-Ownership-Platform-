@@ -1,0 +1,75 @@
+.buttonNoBorder{
+    background-color: var(--white);
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.buttonNoBorder span{
+    color: var(--purple);
+}
+.buttonNoBorder:hover{
+    background-color: rgba(120, 102, 213, 0.1);
+    color: var(--purple);
+}
+.buttonNoBorder:focus, .buttonNoBorder:active{
+    background-color: var(--white);
+    color: var(--purple);
+}
+
+.buttonGradient{
+    height: 40px;
+    min-width: 127px;
+    padding: 9px 20px 11px;
+    border: 1px solid var(--purple);
+    border-radius: 4px;
+    background: linear-gradient(90deg,#7866d5,#9c90eb);
+    outline: none;
+    box-shadow: none;
+    color: var(--white);
+}
+
+.buttonGradient:hover{
+    background: transparent;
+    color: var(--purple) !important;
+    border: 1px solid var(--purple) !important;
+}
+.buttonGradient:focus, .buttonGradient:active{
+    background: transparent;
+    color: var(--purple) !important;
+    border: 1px solid var(--purple) !important;
+}
+
+
+.buttonOnlyBorder{
+    height: 40px;
+    min-width: 127px;
+    padding: 9px 20px 11px;
+    border: 1px solid var(--purple);
+    border-radius: 4px;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    color: var(--purple);
+}
+.buttonOnlyBorder:hover{
+    background: linear-gradient(90deg,#7866d5,#9c90eb);
+    color: var(--white) !important;
+    border: 1px solid var(--purple) !important;
+}
+.buttonOnlyBorder:focus, .buttonGradient:active{
+    background: linear-gradient(90deg,#7866d5,#9c90eb);
+    color: var(--white) !important;
+    border: 1px solid var(--purple) !important;
+}
+.buttonOnlyBorder:disabled,
+.buttonOnlyBorder[disabled]{
+    cursor: not-allowed;
+    color: var(--purple) !important;
+    background: transparent !important;
+}
+.buttonOnlyBorder:disabled:hover,
+.buttonOnlyBorder[disabled]:hover{
+    cursor: not-allowed;
+    color: var(--purple) !important;
+    background: transparent !important;
+}

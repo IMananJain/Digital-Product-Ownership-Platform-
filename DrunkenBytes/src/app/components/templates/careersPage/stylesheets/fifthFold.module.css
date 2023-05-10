@@ -1,0 +1,67 @@
+.fifthFold {
+  width: 100%;
+  padding: 50px 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titleDiv{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.textDiv{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.icon{
+  height: 40px;
+  width: auto;
+}
+.quote{
+  padding: 0 !important;
+  margin: 0 !important;
+  font-weight: 600;
+    font-size: 20px;
+}
+.name{
+  padding: 0 !important;
+  margin: 0 !important;
+  font-weight: 600;
+  font-size: 16px;
+}
+.title{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.imageDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.image{
+  width: auto;
+  height: auto;
+}
+@media only screen and (max-width: 768px) {
+  .fifthFold {
+    padding: 40px 5vw;
+    flex-direction: column;    
+    gap: 20px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .textDiv{
+    order:2;
+    width: 100%;
+  }
+  .imageDiv{
+    order:1;
+    width: 100%;
+  }
+}

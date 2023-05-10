@@ -1,0 +1,75 @@
+.thirdFold {
+  width: 100%;
+  padding: 50px 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.heading {
+  color: var(--purple);
+  font-size: 45px;
+  line-height: 1.2em;
+  font-weight: 540;
+}
+.div{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.contentDiv{
+  text-align: left;
+}
+.subHeading{
+  font-size: 30px;
+  line-height: 1.2em;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+.subParagraph {
+  max-width: 500px;
+  margin-bottom: 30px;
+  font-family: Hauora, sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  color: var(--lightBlack);
+}
+.mainImageDiv {
+  max-width: 500px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainImage {
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .thirdFold {
+    padding: 40px 5vw;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .div{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contentDiv{
+    width:100%;
+    order: 2;
+    text-align: center;
+  }
+  .mainImage {
+    order: 1;
+    height: 90%;
+    width: 90%;
+  }
+}

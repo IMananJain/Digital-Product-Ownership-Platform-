@@ -1,0 +1,32 @@
+.secondFold {
+  width: 100%;
+  padding: 50px 10vw;
+}
+.secondFold figcaption{
+  display: none;
+}
+.secondFold p{
+  font-size: 1em;
+}
+.editDiv{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.editIcon{
+  font-size: 30px;
+  color: var(--purple);
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .secondFold {
+    padding: 40px 5vw;
+  }
+  .heading{
+      font-size: 30px;
+  }
+  .editIcon{
+      font-size: 25px;
+  }
+}

@@ -1,0 +1,30 @@
+.pricingText {
+  width: 100%;
+  padding-left: 20px;
+}
+.container{
+  padding-top: 5px;
+  padding-bottom: 35px;
+}
+.heading {
+  color: var(--black);
+  font-size: 24px;
+  line-height: 1.2em;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+.subParagraph {
+  font-family: Hauora, sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  color: var(--black);
+}
+@media only screen and (max-width: 768px) {
+  .pricingText {
+    padding-left: 0;
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+}

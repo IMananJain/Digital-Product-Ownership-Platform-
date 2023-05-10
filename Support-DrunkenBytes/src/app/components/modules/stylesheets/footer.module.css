@@ -1,0 +1,103 @@
+.footer {
+  width: 100%;
+  padding: 20px 10vw;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-direction: column;
+  background-color: var(--darkPurple);
+}
+.mainDiv {
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+}
+.companyContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 300px;
+}
+.companyContainer img {
+  height: 50px !important;
+  object-fit: contain; /* maintain aspect ratio and fit within the container */
+  width: auto;
+  align-self: flex-start;
+}
+.companyContainer p {
+  color: var(--white);
+  font-size: var(--sixteen);
+}
+.containersContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 30px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container p {
+  color: var(--footerText);
+  font-size: var(--sixteen);
+}
+.containerLinks {
+  color: var(--white);
+  font-size: var(--sixteen);
+  line-height: 1.3em;
+  margin-bottom: 12px;
+}
+.containerLinks:hover {
+  /* color: var(--footerText);
+    text-decoration: underline !important; */
+  color: #b2a4ff;
+}
+.copyrightDiv {
+  width: 100%;
+  border-top: 2px solid var(--white);
+  padding-top: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+.policyAndTerms {
+  display: flex;
+  gap: 20px;
+}
+.policyAndTermsLinks {
+  color: var(--footerText);
+  font-size: var(--twelve);
+}
+.policyAndTermsLinks:hover {
+  text-decoration: underline !important;
+}
+.copyright {
+  color: var(--white);
+  font-size: var(--twelve);
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    width: 100%;
+    padding: 40px 6vw;
+  }
+  .mainDiv {
+    gap: 50px;
+    flex-direction: column;
+  }
+  .companyContainer {
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .companyContainer img {
+    align-self: center;
+  }
+  .copyrightDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
